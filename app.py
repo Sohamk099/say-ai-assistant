@@ -1,5 +1,5 @@
 import streamlit as st
-from PyPDF2 import PdfReader
+from pypdf import PdfReader
 import nltk
 from nltk.corpus import stopwords
 from nltk.tokenize import sent_tokenize, word_tokenize
@@ -312,4 +312,5 @@ elif menu == "Poster Generator":
 
     st.header("🎨 Poster Generator")
     st.link_button("Open Canva", "https://www.canva.com")
+
 
